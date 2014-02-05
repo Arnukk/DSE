@@ -1,0 +1,228 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MergeRootFrame"
+    android:foregroundGravity="center_vertical|center_horizontal">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/abc_ab_bottom_solid_dark_holo"
+        android:layout_gravity="center"
+        android:textAlignment="gravity"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Screen"
+            android:textAlignment="gravity"
+            android:textColor="#31e71b"
+            android:text="0"
+            android:textSize="40dp"
+            android:editable="false"
+            android:clickable="false"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:textIsSelectable="true"
+            android:layout_column="3"
+            android:layout_span="14"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal|left"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="CLEAR"
+            android:id="@+id/buttonC"
+            android:layout_column="3"
+            android:textStyle="bold"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/abc_menu_dropdown_panel_holo_light"
+            android:layout_span="5" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="1"
+                android:id="@+id/button1"
+                android:layout_column="3"
+                android:textStyle="bold"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/abc_menu_dropdown_panel_holo_light"
+                android:layout_span="5" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="2"
+                android:id="@+id/button2"
+                android:layout_column="8"
+                android:textStyle="bold"
+                android:background="@drawable/abc_menu_dropdown_panel_holo_light" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="3"
+                android:id="@+id/button3"
+                android:layout_column="12"
+                android:textStyle="bold"
+                android:background="@drawable/abc_menu_dropdown_panel_holo_light"
+                android:clickable="true"
+                android:enabled="true" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="+"
+                android:id="@+id/buttonPlus"
+                android:layout_column="12"
+                android:textStyle="bold"
+                android:background="@drawable/abc_menu_dropdown_panel_holo_light" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|center_horizontal">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="4"
+                android:id="@+id/button4"
+                android:layout_column="3"
+                android:textStyle="bold"
+                android:background="@drawable/abc_menu_dropdown_panel_holo_light" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="5"
+                android:id="@+id/button5"
+                android:layout_column="8"
+                android:textStyle="bold"
+                android:background="@drawable/abc_menu_dropdown_panel_holo_light" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="6"
+                android:id="@+id/button6"
+                android:layout_column="12"
+                android:textStyle="bold"
+                android:background="@drawable/abc_menu_dropdown_panel_holo_light" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="-"
+                android:id="@+id/buttonMinus"
+                android:layout_column="12"
+                android:textStyle="bold"
+                android:background="@drawable/abc_menu_dropdown_panel_holo_light" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|center_horizontal">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="7"
+                android:id="@+id/button7"
+                android:layout_column="3"
+                android:textStyle="bold"
+                android:background="@drawable/abc_menu_dropdown_panel_holo_light" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="8"
+                android:id="@+id/button8"
+                android:layout_column="8"
+                android:textStyle="bold"
+                android:background="@drawable/abc_menu_dropdown_panel_holo_light" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="9"
+                android:id="@+id/button9"
+                android:layout_column="12"
+                android:textStyle="bold"
+                android:background="@drawable/abc_menu_dropdown_panel_holo_light" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="*"
+                android:id="@+id/buttonMulti"
+                android:layout_column="12"
+                android:textStyle="bold"
+                android:background="@drawable/abc_menu_dropdown_panel_holo_light" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|center_horizontal">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="0"
+                android:id="@+id/button0"
+                android:layout_column="3"
+                android:textStyle="bold"
+                android:background="@drawable/abc_menu_dropdown_panel_holo_light" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="."
+                android:id="@+id/buttonFloat"
+                android:layout_column="8"
+                android:textStyle="bold"
+                android:background="@drawable/abc_menu_dropdown_panel_holo_light" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="="
+                android:id="@+id/buttonEqual"
+                android:layout_column="12"
+                android:textStyle="bold"
+                android:background="@drawable/abc_menu_dropdown_panel_holo_light" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="/"
+                android:id="@+id/buttonDivide"
+                android:layout_column="12"
+                android:textStyle="bold"
+                android:background="@drawable/abc_menu_dropdown_panel_holo_light" />
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>
