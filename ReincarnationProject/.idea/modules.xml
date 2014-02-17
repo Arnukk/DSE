@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Reincarnation/Reincarnation.iml" filepath="$PROJECT_DIR$/Reincarnation/Reincarnation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReincarnationProject.iml" filepath="$PROJECT_DIR$/ReincarnationProject.iml" />
+    </modules>
+  </component>
+</project>
+

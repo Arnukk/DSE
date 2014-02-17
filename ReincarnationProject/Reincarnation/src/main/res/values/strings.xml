@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Reincarnation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="template">
+        <![CDATA[<div style=\"text-align:justify; width:100\%%; display:block; font-size:18;\">
+        It seems that You have requested <b>http://www.jsontest.com/</b> to return in JSON format the MD5 hash of the <b><u>%1$s</u></b> string. Here is Your response ;-)
+        <span style=\"text-align:justify; width:100\%%; display:block; background-color:black; color:green; font-size:20; padding:10; margin-top:10\">%2$s</span>
+        </div>]]>
+    </string>
+
+</resources>

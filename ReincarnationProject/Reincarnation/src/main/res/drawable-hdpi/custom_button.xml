@@ -1,0 +1,5 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:drawable="@drawable/refresh_yellow"/>
+    <item android:state_pressed="true" android:drawable="@drawable/refresh_yellow" />
+    <item android:drawable="@drawable/refresh_blue" />  //means normal
+</selector>
