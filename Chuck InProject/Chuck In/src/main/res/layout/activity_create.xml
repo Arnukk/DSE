@@ -1,0 +1,100 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/description"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/name"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitude - "
+            android:id="@+id/textView3"
+            android:layout_marginTop="28dp"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_below="@+id/description"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitude - "
+            android:id="@+id/textView4"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="26dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/latitude"
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_alignLeft="@+id/longitude" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/longitude"
+            android:layout_alignTop="@+id/textView4"
+            android:layout_toRightOf="@+id/textView4"
+            android:layout_marginLeft="27dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="CHECK IN"
+            android:id="@+id/post"
+            android:background="@drawable/gradient_green"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textSize="20sp"
+            android:textColor="#ff6f23"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginTop="28dp"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</FrameLayout>
