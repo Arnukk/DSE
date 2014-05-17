@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CardBook</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_intro">Cardbook</string>
+    <string name="title_section1">Welcome</string>
+    <string name="title_section2">About</string>
+    <string name="title_section3">Register</string>
+    <string name="action_settings">Settings</string>
+    <string name="PrivateKeys">com.example.cardbook.MagicKeys</string>
+    <string name="Lorem"> Aliquam mollis in massa non dictum. Fusce eu metus iaculis,
+    rhoncus massa nec, pharetra neque. Nam feugiat justo ac ipsum tempus porttitor.
+    Integer et tincidunt tellus. Etiam dapibus lorem nec risus accumsan ornare.
+    Nulla ut erat vitae nunc tincidunt tempor. Proin eu rutrum sapien, ut pulvinar massa.</string>
+
+
+</resources>
